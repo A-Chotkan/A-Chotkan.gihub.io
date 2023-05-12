@@ -92,3 +92,91 @@
             </div>
         </div>
       </div>
+
+
+      <!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9 ">
+            <h1 class="text-start p-0 animate__animated animate__heartBeat text-center">Portfolio van Aditya Chotkan</h1>
+        </div>
+
+      <div class="col-sm-3 mt-2 ">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand animate__animated animate__heartBeat mx-4" href="#">Portfolio van Aditya Chotan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Inhoudsopgave</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+<div class="container-sm news-container">
+    <div class="row text-center">
+        <h3 class="title-news mb-4 ">Latest News</h3>
+    </div> 
+    <div class="row">
+        <div class="col"><img class="img-fluid" src="img/blog/1.jpg" alt=""></div>
+        <div class="col"><img class="img-fluid" src="img/blog/2.jpg" alt=""></div>
+        <div class="col"><img class="img-fluid" src="img/blog/3.jpg" alt=""></div>
+    </div> 
+    <div class="row">
+        <div class="col newsT1">
+        <p class="lead fs-6 text"> 13 comments    2016-03-05 / 09:10:16 </p>
+        <p class="fs-4 fw-semibold"> Assumenda repud eum veniam </p>
+        <p class="fs-6 text"> Lorem ipsum sit amet conse adipis elit Assumenda repud
+            eam veniam potio modi sit explicabo nisi magnam 
+            qulbusdam sit amet conse adpis elit Assumenda requd eum 
+            veniam optio modi sit explicabo nisi magnam quibusdam. <br>
+            <button class="mt-3 rounded-pill bg-white">READ MORE</button>
+        </p>
+        </div> 
+
+        <div class="col newsT2">
+        <p class="lead fs-6 text"> 130 comments    2016-03-05 / 09:10:16 </p>
+        <p class="fs-4 fw-semibold"> Explicabo magnam quibusdam </p>
+        <p class="fs-6 text"> Lorem ipsum sit amet conse adipis elit Assumenda repud
+            eam veniam potio modi sit explicabo nisi magnam 
+            qulbusdam sit amet conse adpis elit Assumenda requd eum 
+            veniam optio modi sit explicabo nisi magnam quibusdam. <br>
+            <button class="mt-3 rounded-pill bg-white">READ MORE</button>
+        </p>
+        </div> 
+
+        <div class="col newsT3">
+        <p class="lead fs-6 text"> 10 comments    2016-03-05 / 09:10:16 </p>
+        <p class="fs-4 text fw-semibold"> Lorem ipsum dolor sit amet </p>
+        <p class="fs-6 text"> Lorem ipsum sit amet conse adipis elit Assumenda repud
+            eam veniam potio modi sit explicabo nisi magnam 
+            qulbusdam sit amet conse adpis elit Assumenda requd eum 
+            veniam optio modi sit explicabo nisi magnam quibusdam. <br>
+            <button class="mt-3 rounded-pill bg-white">READ MORE</button>
+        </p>
+        </div> 
+    </div> 
+    </div>
