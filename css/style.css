@@ -1,6 +1,6 @@
-/* *{
-    background-color: black;
-} */
+*{
+    background-color: rgb(242, 242, 242);
+}
 
 .adiFoto{
     height: 400px;
@@ -40,5 +40,15 @@ h3::before {
 }
 
 .ProjectImage{
-    height: 330px;
+    height: 300px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.firstImage{
+    margin-top: 80px;
+    /* width: 800px;
+    height: 450px; */
 }
