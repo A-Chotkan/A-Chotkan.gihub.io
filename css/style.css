@@ -49,6 +49,25 @@ h3::before {
 
 .firstImage{
     margin-top: 80px;
-    /* width: 800px;
-    height: 450px; */
+    width: 800px;
+    height: 450px;
 }
+
+.positionAb{
+    position: absolute; top: 400px; left: 220px;
+    background: transparent;
+    color: white;
+    font-size: large;
+}
+
+/* .li{
+    position: absolute; top: 47px; left: 20px;
+    background: transparent;
+    color: white;
+}
+
+.li2{
+    position: absolute; top: 67px; left: 0px;
+    background: transparent;
+    color: white;
+} */
