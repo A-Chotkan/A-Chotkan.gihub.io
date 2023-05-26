@@ -38,3 +38,7 @@ h3::before {
     background-color: #00aeff;
     border: #00aeff;
 }
+
+.ProjectImage{
+    height: 350px;
+}
