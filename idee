@@ -1,5 +1,4 @@
-<!-- Is de talk -->
-
+<!-- Is de balk -->
 <div class="container-sm">
   <div class="row">
     <div class="col">
@@ -17,6 +16,21 @@
       </div><br>
       <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar" style="width: 100%"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid p-0 mt-2">
+  <div class="row-fluid">
+    <div class="col-fluid">
+      <div class="p-3 bg-dark text-white ">
+        <h1 class="bg-dark">Jumbotron Example</h1>
+        <p class="bg-dark">Lorem ipsum...
+          <img src="" alt="">
+        </p>
       </div>
     </div>
   </div>
