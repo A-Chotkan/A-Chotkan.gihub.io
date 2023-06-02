@@ -23,7 +23,7 @@
 
 
 
-
+<!-- Hier begint de navbar (1ste container)-->
 <nav class="navbar navbar-expand-lg bg-dark text-white fixed-top p-0">
   <div class="container-fluid navbar">
     <h2 class="navbar text-start p-0 animate__animated animate__heartBeat text-center">Portfolio van Aditya Chotkan</h2>
@@ -32,7 +32,7 @@
           <a class="navbar nav-link text-white" href="#">Home</a>
         </li>
         <li class="navbar nav-item">
-          <a class="navbar nav-link text-white" href="#">blablabla</a>
+          <a class="navbar nav-link text-white" href="#Projecten">Projecten</a>
         </li>
         <li class="navbar nav-item">
           <a class="navbar nav-link text-white" href="#">blablabla</a>
@@ -42,21 +42,22 @@
         </li>
       </ul>
     </div>
-</nav>
+  </nav>
+<!-- Hier eindigd de navbar (1ste container) -->
 
-<!-- <div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <img class="img-fluid p-0 justify-content-center" src="Image/EigenImage.png" alt="">
-    </div>
-  </div>
-</div> -->
 
+
+
+
+
+
+
+<!-- hier begint de home pagina (2de container) -->
 <div class="container-fluid con1 shadow-lg">
   <div class="row">
     <div class="col-sm-7 col1">
       <div class="card text-bg-dark">
-          <img src="Image/Car1.jpg" class="firstImage card-img" alt="...">
+          <img src="Image/Car1.jpg" class="firstImage card-img img-fluid" alt="...">
           <div class="card-img-overlay">
             <h5 class="card-title"></h5>
             <p class="card-text text-center">  
@@ -71,7 +72,7 @@
 
   <div class="col-sm-3 mx-5">
     <div class="card text-bg-dark">
-        <img src="Image/FotoVanAditya.jpg" class="secondImage card-img" alt="...">
+        <img src="Image/FotoVanAditya.jpg" class="secondImage card-img img-fluid" alt="...">
         <div class="card-img-overlay">
           <h5 class="card-title"></h5>
           <p class="card-text text-center">  
@@ -85,126 +86,267 @@
     </div>
   </div>
 </div>
+<!-- Hier eindigd de navbar (2de container) -->
 
 
 
-<div class="container-fluid shadow-lg">
+
+
+
+
+
+<!-- Hier begint de projecten pagina (3de container) -->
+<div class="container-fluid shadow-lg" id="Projecten">
   <div class="row text-center">
-    <h3 class="title-news mb-3 mt-3">Mijn Projecten</h3>
+    <h3 class="title-news mb-3 mt-3">Projecten</h3>
   </div>
 
+  <!-- Begin 1ste row -->
   <div class="row mt-4">
-    <div class="col">
+
+    <!-- 1ste col -->
+    <div class="col-sm-4">
       <div class="card">
         <!-- <img class="ProjectImage card-img-top" src="Image/HogerLager.jpg" alt="Title"> -->
-        <img class="ProjectImage card-img-top" src="Image/HogerLager2.png" alt="Title">
+        <img class="ProjectImage card-img-top p-2" src="Image/HogerLager2.png" alt="Title">
         <div class="card-body bg-white">
           <h4 class="card-title text-center bg-white">Hoger Lager</h4>
           <p class="card-text bg-white">
-            Text
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Informatie
+            </button>
 
-          <div class="text-center bg-white">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informatie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hier komt informatie in over de game/website
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <!-- <div class="text-center bg-white">
               <button type="button" class="btn btn-dark rounded-pill text-white">button</button>
-          </div>
+          </div> -->
 
           </p>
         </div>
       </div>
     </div>
+<!-- Einde 1ste col -->
 
-    <div class="col">
+
+
+
+<!-- 2ste col -->
+    <div class="col-sm-4">
       <div class="card">
         <img class="ProjectImage card-img-top " src="Image/EscapeRoom.jpg" alt="Title">
         <div class="card-body bg-white">
           <h4 class="card-title text-center bg-white">Escape Room</h4>
           <p class="card-text bg-white">
-            Text
 
-            <div class="text-center bg-white">
-              <button type="button" class="btn btn-dark rounded-pill text-white">button</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Informatie
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informatie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal2" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hier komt informatie in over de game/website ahahahaahahahahahhah <br>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
             </div>
-
 
           </p>
         </div>
       </div>
     </div>
+<!-- Einde 2de col -->
 
-    <div class="col">
+
+<!-- 3de col -->
+    <div class="col-sm-4">
       <div class="card">
         <img class="ProjectImage card-img-top" src="Image/BoterKaas en Eieren2.jpg" alt="Title">
         <div class="card-body bg-white">
           <h4 class="card-title text-center bg-white">Boter kaas en eieren</h4>
           <p class="card-text bg-white">
-            Text
-          
-            <div class="text-center bg-white">
-              <button type="button" class="btn btn-dark rounded-pill text-white">button</button>
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Informatie
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informatie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hier komt informatie in over de game/website <br>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
             </div>
-          
+
           </p>
         </div>
       </div>
     </div>
   </div>
+<!-- Einde 3de col -->
+<!-- Einde 1ste row -->
 
+
+<!-- Begin 2de row -->
+<!-- 4de col -->
   <div class="row mt-4">
-    <div class="col">
+    <div class="col-sm-4">
       <div class="card">
         <img class="ProjectImage card-img-top" src="Image/Webcatalugus.jpg" alt="Title">
         <div class="card-body bg-white">
           <h4 class="card-title text-center bg-white">Webcatalugus website</h4>
           <p class="card-text bg-white">
-            Text
-          
-            <div class="text-center bg-white">
-              <button type="button" class="btn btn-dark rounded-pill text-white">button</button>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Informatie
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informatie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hier komt informatie in over de game/website <br>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
             </div>
-          
+
           </p>
         </div>
       </div>
     </div>
+<!-- Einde 4de col -->
 
-    <div class="col">
+<!-- 5de col -->
+    <div class="col-sm-4">
       <div class="card">
         <img class="ProjectImage card-img-top" src="Image/Bootstrap website.avif" alt="Title">
         <div class="card-body bg-white">
           <h4 class="card-title text-center bg-white">eBusiness website</h4>
           <p class="card-text bg-white">
-            Text
-          
-            <div class="text-center bg-white">
-              <button type="button" class="btn btn-dark rounded-pill text-white">button</button>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Informatie
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informatie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hier komt informatie in over de game/website <br>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
             </div>
-          
           </p>
         </div>
       </div>
     </div>
+<!-- Einde 5de col -->
 
-    <div class="col">
+
+<!-- 6de col -->
+    <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top" src="holder.js/100x180/" alt="Title">
+        <img class="ProjectImage card-img-top" src="Image/GoEasy.jpg" alt="Title">
         <div class="card-body bg-white">
-          <h4 class="card-title bg-white">Title</h4>
+          <h4 class="card-title bg-white">Go Easy website</h4>
           <p class="card-text bg-white">
-            Text
-          
-            <div class="text-center bg-white">
-              <button type="button" class="btn btn-dark rounded-pill text-white">button</button>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Informatie
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Informatie</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hier komt informatie in over de game/website <br>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
             </div>
-          
+
           </p>
         </div>
       </div>
     </div>
+    <!-- Einde 6de col -->
   </div>
+  <!-- Einde 2de row -->
 </div>
+<!-- Hier eindigd de projecten pagina (3de container) -->
 
 
+<!-- Hier begint de plan van aanpak pagina (4de container) -->
 <div class="container-fluid shadow-lg">
-
   <div class="row text-center">
     <h3 class="plan-title mb-3 mt-5">Plan van aanpak</h3>
   </div>
@@ -277,13 +419,18 @@
       </div>
   </div>
 </div>
+<!-- Hier eindigd de plan van aanpak pagina (4de container) -->
 
 
-
+<!-- Dit is een alertje onderaan in de pagina ergens. -->
 <div class="alert alert-dark alert-dismissible fade show " role="alert">
   <strong></strong> Klik op kruisje helemaal rechts om GEEN virus te krijgen
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
+<!-- Einde alert code. -->
+
+
+
 
 
   <!-- <script src="main.js"></script> -->

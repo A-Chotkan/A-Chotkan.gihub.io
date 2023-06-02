@@ -65,6 +65,8 @@ h3::before {
 .ProjectImage{
     height: 250px;
     width: 440px;
+    margin-left: 20px;
+    border-radius: 12px;
 }
 
 
