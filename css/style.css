@@ -53,17 +53,18 @@ h3::before {
     background: black;
 }
 
-.cardH{
-    
-}
+/* .cardH{
+    border: 2px solid red;
+} */
 
 .card{
     border: 2px solid rgb(71, 71, 255);
 }
 
-.cardP{
-    
-}
+/* .cardP{
+     border-radius: 5px;
+     box-shadow: 0px 0px 0px 0px;
+} */
 
 .btn:hover{
     background-color: #00aeff;
