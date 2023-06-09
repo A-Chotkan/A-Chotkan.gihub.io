@@ -53,8 +53,16 @@ h3::before {
     background: black;
 }
 
+.cardH{
+    
+}
+
 .card{
     border: 2px solid rgb(71, 71, 255);
+}
+
+.cardP{
+    
 }
 
 .btn:hover{
@@ -72,6 +80,10 @@ h3::before {
 
 .navbar{
     background-color: black;
+}
+
+.icons{
+    color:rgb(71, 71, 255);
 }
 
 /* .mijnCard{
