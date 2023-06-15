@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+}
+body{
+    /* background-image: url(img4.webp);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background: black;
+    /* margin: auto; */
+}
+::selection{
+    background-color: rgba(0,0,0,0.0);
+}
+.wrapper{
+    background-image: url(img.jpg);
+    background-size: cover;
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+h1{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+h1:hover{
+    background-color:white;
+    color: black;
+}
+article{
+    width: 45%;
+    height: 300px;
+}
+.ar1{
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+.ar2{
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+}
+.ar3{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+h2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+h2:hover{
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 249, 249);
+
+}
+button{
+    margin-top: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:sans-serif;
+
+}
+button:hover{
+    background: black;
+    border: 2px solid white;
+    color: white;
+}
+.puzzel1{
+    height: 650px;
+
+    background-image: url(img1.webp);
+    background-size:800px 650px;
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+
+.Mydiv{
+    margin: 5px;
+    width: 45%;
+    height: 45%;
+    float: left;
+}
+.num1{
+    width: 20px;
+    margin: 83px 0px 0px 26px;
+    cursor: pointer;
+    opacity: 0.0;
+}
+.num1:hover{
+    color: white;
+    font-size: 20px;
+    opacity: 1.0;
+}
+.num2{
+    width: 20px;
+    margin: 54px 0px 0px 127px;
+    cursor: pointer;
+    opacity: 0.0;
+}
+.num2:hover{
+    width: 30px;
+    height: 30px;
+    color: white;
+    opacity: 1.0;
+}
+.num3{
+    width: 20px;
+    margin: 60px 0px 0px 250px;
+    cursor: pointer;
+    opacity: 0.0;
+
+}
+.num3:hover{
+    color: white;
+    font-size: 20px;
+    opacity: 1.0;
+}
+.num4{
+    width: 20px;
+    margin: 110px 0px 0px 250px;
+    cursor: pointer;
+    opacity: 0.0;
+
+
+}
+.num4:hover{
+    color: white;
+    font-size: 20px;
+    opacity: 1.0;
+}
+.next{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: white;
+    /* float: right; */
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.next:hover{
+    color: rgb(255, 250, 250);
+    background: rgb(0, 0, 0);
+    border: 2px solid white;
+
+}
+a{
+    text-decoration: none;
+}
+
+.puzzel2{
+height: 650px;
+background-image: url(img2.jpg);
+background-size:800px 650px;
+width: 800px;
+height: 650px;
+margin: auto;
+margin-top: 5%;
+border-radius: 30px;
+border: 1px solid rgb(184, 184, 184);
+}
+.word1{
+margin: 15px 0px 0px 152px;
+cursor: pointer;
+opacity: 0.0;
+}
+.word1:hover{
+color: white;
+font-size: 60px;
+opacity: 1.0;
+}
+.word2{
+margin: 164px 0px 0px 195px;
+cursor: pointer;
+opacity: 0.0;
+}
+.word2:hover{
+color: rgb(255, 255, 255);
+font-size: 60px;
+opacity: 1.0;
+}
+.word3{
+margin: 115px 0px 0px 230px;
+cursor: pointer;
+opacity: 0.0;
+
+}
+.word3:hover{
+color: white;
+font-size: 60px;
+opacity: 1.0;
+}
+.word4{
+margin: 168px 0px 0px 245px;
+cursor: pointer;
+opacity: 0.0;
+
+}
+.word4:hover{
+color: white;
+font-size: 60px;
+opacity: 1.0;
+
+}
+.puzzel3{
+    height: 650px;
+    background-image: url(img3.jpg);
+    background-size:800px 650px;
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 1px solid rgb(184, 184, 184);
+}
+/* .img1{
+    width: 50px;
+    height: 50px;
+    margin: 200px 0px 0px 12px;
+    opacity: 0.0;
+}
+.img1:hover{
+    opacity: 1.0;
+} */
+.img2{
+    width: 50px;
+    height: 50px;
+    margin: 200px 0px 0px 40px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+.img2:hover{
+    opacity: 1.0;
+}
+.img3{
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+}
+.img4{
+    float: right;
+    width: 300px;
+    height: 500px;
+}
+.winner{
+    height: 650px;
+    background-image: url(winner.webp);
+    background-size:800px 650px;
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.p1{
+    color: white;
+    font-size: 16px;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+.p1:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+h3{
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+.rules{
+    color: white;
+    padding: 5px;
+}
+.rules:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid white;
+}
