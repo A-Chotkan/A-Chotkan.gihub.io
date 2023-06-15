@@ -1,7 +1,3 @@
-/* *{
-    background-color: rgb(242, 242, 242);
-} */
-
 .con1{
     margin-top: 80px;
 }
@@ -25,18 +21,6 @@
     margin-left: 7px;
 }
 
-/* .adiFoto{
-    height: 300px;
-    width:200px;
-    border-radius: 15px;
-    margin-left: 40px;
-} */
-/* 
-.logo{
-    height: 20px;
-    height: 20px;
-} */
-
 h3{
     padding: 30px 0 8px;
     position: relative;
@@ -53,18 +37,9 @@ h3::before {
     background: black;
 }
 
-/* .cardH{
-    border: 2px solid red;
-} */
-
 .card{
     border: 2px solid rgb(71, 71, 255);
 }
-
-/* .cardP{
-     border-radius: 5px;
-     box-shadow: 0px 0px 0px 0px;
-} */
 
 .btn:hover{
     background-color: #00aeff;
@@ -78,7 +53,6 @@ h3::before {
     border-radius: 12px;
 }
 
-
 .navbar{
     background-color: black;
 }
@@ -87,15 +61,19 @@ h3::before {
     color:rgb(71, 71, 255);
 }
 
-/* .mijnCard{
-    margin-top: 80px;
-    margin-right: 20px;
-} */
-
-
-
-
 .project1{
     width: 300px;
     height: 160px;
+}
+
+.info{
+    margin-left: 123px;
+}
+
+.maps{
+    margin-left: 113px;
+}
+
+.btn{
+    margin-left: 120px;
 }
